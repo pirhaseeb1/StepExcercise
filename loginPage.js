@@ -19,7 +19,6 @@ class LoginPage{
     login_click(){
         cy.get('[type=submit]').click()
         return this
-    
     }
 }
 export default LoginPage
